@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master # Deploy from the master branch. (Vite default is usually master or main)
+      - main # Deploy from the master branch. (Vite default is usually master or main)
 
 permissions:
   contents: read
